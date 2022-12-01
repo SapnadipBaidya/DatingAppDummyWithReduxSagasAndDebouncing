@@ -1,0 +1,14 @@
+.icons{
+  z-index: 12 !important;
+}
+
+.icons:hover{
+    -webkit-animation:spin 0.5s linear 1;
+    animation:spin 0.5s linear 1;
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
